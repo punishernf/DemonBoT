@@ -36,7 +36,7 @@ async def _(event):
     if event.fwd_from:
         return
     if not event.is_reply:
-        await event.edit("Reply to a photo to add to my personal sticker pack.NiBbI.")
+        await event.edit("Reply to a photo or sticker to own it")
         return
     reply_message = await event.get_reply_message()
     sticker_emoji = "🔥"
@@ -122,7 +122,7 @@ async def _(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"**BOOM BOI!**\n`THIS IS NOW MY PROPERTY` [Find it Here](t.me/addstickers/{packshortname})"
+    await event.edit(f"**BOOM BOI!**\n`THIS IS NOW MY PROPERTY` [Find it Here](t.me/addstickers/)"
                      f" by {DEFAULTUSER}")
 
 
