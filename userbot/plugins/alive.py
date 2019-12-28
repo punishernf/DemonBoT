@@ -13,5 +13,5 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("**`I AM ALIVE MASTER!!!!`**\n\n"
                      "My Great Developer: @demonhub\n Database Status: Databases functioning normally!\n\nAlways with you, my master!\n`"
-                     f"`My Master`: {DEFAULTUSER}\n")
+                     f"My Master: {DEFAULTUSER}\n")
                      
