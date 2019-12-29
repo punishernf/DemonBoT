@@ -1,7 +1,7 @@
 """
 Say something interesting...
 Syntax: .belo
-    by @Demonhub
+    by @Deonnn
 Quotes credits: Being logical Channel
 """
 
