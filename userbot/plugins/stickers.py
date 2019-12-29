@@ -123,7 +123,7 @@ async def _(event):
             await silently_send_message(bot_conv, "/done")
 
     await event.edit(f"**PURCHASE SUCCESSFULL!!**\n`ITS NOW MY PROPERTY` [Find it here](t.me/addstickers/{packshortname})"
-                     f" by {DEFAULTUSER}")
+                     )
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
