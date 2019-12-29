@@ -10,7 +10,7 @@ PREV_REPLY_MESSAGE = {}
 
 
 USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me.Else gaand mara dunga bsdk "
-USER_BOT_NO_WARN = "`Hello,This is DemonBoT.\n My Master is offline right now!!!\n\nLeave your name, message, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.\n\n If you spam you will be reported and blocked, so make sure you **DON'T SPAM!!!!**\n\n `"
+USER_BOT_NO_WARN = "`Hello,This is DemonBoT.\n My Master is offline right now!!!\n\nLeave your name, message, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.\n\n If you spam you will be reported and blocked!!\n\n**DON'T SPAM!!!!**\n\n `"
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
