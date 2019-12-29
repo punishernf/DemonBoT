@@ -58,7 +58,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{userid}'s KangAnimated"
         if userid == 715462063:
-            packshortname = "DemonHuB's_Property"
+            packshortname = "@demonhub_DemonHuB"
         else:
             packshortname = f"Kang_As{userid}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
@@ -70,7 +70,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("`Look dat way,it's a gurl!Meanwhile lemme kang this stcker over hehe 0.0`")
+    await event.edit("`HOLD ON!!! LET ME BUY THIS`")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
@@ -122,7 +122,7 @@ async def _(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"**BOOM BOI!**\n`Sticker added! This sticker has been stolen to` [this place](t.me/addstickers/{packshortname})"
+    await event.edit(f"**PURCHASE SUCCESSFULL!!**\n`ITS NOW MY PROPERTY` [Find it here](t.me/addstickers/{packshortname})"
                      f" by {DEFAULTUSER}")
 
 
