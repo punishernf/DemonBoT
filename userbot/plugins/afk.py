@@ -1,4 +1,4 @@
-"""AFK Plugin for @UniBorg
+"""AFK Plugin 
 Syntax: .afk REASON"""
 import asyncio
 import datetime
