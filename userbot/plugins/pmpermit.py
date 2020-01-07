@@ -10,7 +10,7 @@ PREV_REPLY_MESSAGE = {}
 
 
 USER_BOT_WARN_ZERO = "╭∩╮( `A´ )╭∩╮\n\nEnough spam for today!!!\n\nI can't deal with this anymore (✿≖‸≖ )凸\nNow let my Master Decide to UNBLOCK YOU or not"
-USER_BOT_NO_WARN = "`Hello,This is DemonBoT.\nMy Master is offline right now!!!\n\nLeave your name, message, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.\n\nIf you spam you will be reported and blocked!!\n\n**DON'T SPAM!!!!**\n\n `"
+USER_BOT_NO_WARN = "`Hello,This is PunishernF.\nMy Master is offline right now!!!\n\nLeave your name, message, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.\n\nIf you spam you will be reported and blocked!!\n\n**DON'T SPAM!!!!**\n\n `"
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
