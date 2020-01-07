@@ -12,6 +12,6 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check p
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("**`I AM ALIVE MASTER!!!!`**\n\n"
-                     "`My Great Developer`: @demonhub\nDatabase Status: Databases functioning normally!\n\n`Always with you, my master!!!`\n"
+                     "`My Great Developer`: @demonhub\nDatabase Status: Databases functioning Normally!\n\n`Always with you, My Master!!!`\n"
                      f"`My Master`: {DEFAULTUSER}\n")
                      
